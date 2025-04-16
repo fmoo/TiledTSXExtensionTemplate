@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015"],
+    "target": "es6",
+    "module": "commonjs",
+    "typeRoots": [
+      "./node_modules/@mapeditor",
+      "./node_modules/@types",
+      "./types"
+    ],
+    "outDir": "./build",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}

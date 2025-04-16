@@ -1,0 +1,19 @@
+{
+  "name": "tiled-tsx-extension-template",
+  "version": "0.0.1",
+  "description": "A sample project for building Tiled extensions in TypeScript",
+  "scripts": {
+    "build": "esbuild --bundle src/*.ts --format=esm --supported:class-field=false --target=es2016 --outdir=dist",
+    "watch": "esbuild --bundle src/*.ts --format=esm --supported:class-field=false --target=es2016 --outdir=dist --watch"
+  },
+  "author": "Peter Ruibal",
+  "repository": "https://github.com/fmoo/TiledTSXExtensionTemplate",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@mapeditor/tiled-api": "^1.11.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.2",
+    "typescript": "^5.4.2"
+  }
+}
